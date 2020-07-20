@@ -1,0 +1,4 @@
+hakase:
+  name: Shinonome Hakase
+  email: shinonomelab@tokisadame.com
+  password_digest: <%= User.digest('password') %>
