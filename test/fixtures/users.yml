@@ -1,4 +1,18 @@
 hakase:
   name: Shinonome Hakase
-  email: shinonomelab@tokisadame.com
+  email: shinonomehakase@tokisadame.com
   password_digest: <%= User.digest('password') %>
+  admin: true
+
+nano:
+  name: Shinonome Nano
+  email: shinonomenano@tokisadame.com
+  password_digest: <%= User.digest('password') %>
+  admin: false
+
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>

@@ -6,15 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25c9950-90a0-4181-9493-f5c08431b8e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sample_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/sessions_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/users_login_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/users_login_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/users_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +175,9 @@
       <workItem from="1595048047851" duration="19637000" />
       <workItem from="1595224795738" duration="16325000" />
       <workItem from="1595419617170" duration="6778000" />
-      <workItem from="1595504125134" duration="3022000" />
+      <workItem from="1595504125134" duration="4076000" />
+      <workItem from="1595568451824" duration="8595000" />
+      <workItem from="1595604831925" duration="8191000" />
     </task>
     <servers />
   </component>
@@ -202,10 +209,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595058000483" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595506690696">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595654216809">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1057.1920.1057@0.0.1280.800" timestamp="1595143151515" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595506690696" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595654216809" />
   </component>
 </project>
