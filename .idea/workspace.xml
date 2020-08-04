@@ -6,17 +6,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25c9950-90a0-4181-9493-f5c08431b8e6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/b184362.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/b184362.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sample_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +65,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: sample_app">
+  <component name="RunManager" selected="Rake.test: sample_app">
     <configuration name="Development: sample_app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="sample_app" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -179,7 +189,10 @@
       <workItem from="1595849676908" duration="5759000" />
       <workItem from="1595928081151" duration="5974000" />
       <workItem from="1595949353500" duration="539000" />
-      <workItem from="1596018709329" duration="2864000" />
+      <workItem from="1596018709329" duration="4146000" />
+      <workItem from="1596179383944" duration="8667000" />
+      <workItem from="1596496611060" duration="1619000" />
+      <workItem from="1596522494218" duration="7194000" />
     </task>
     <servers />
   </component>
@@ -207,14 +220,34 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="331" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595158436815" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1596498271329">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271329" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1596498271327">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271327" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1596498271325">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271325" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1596498271328">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271328" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1595058000483">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595058000483" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1596020615162">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1596537255780">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1057.1920.1057@0.0.1280.800" timestamp="1595143151515" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596020615162" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596537255780" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1596524766775" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sample_app@test__sample_app.rcov" NAME="test: sample_app Coverage Results" MODIFIED="1596498243749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
 </project>
