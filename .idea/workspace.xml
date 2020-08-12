@@ -7,21 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d25c9950-90a0-4181-9493-f5c08431b8e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/b184362.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/b184362.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sample_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sample_app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/password_resets/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/static_pages/home.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/users/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
@@ -35,6 +25,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1edubwG7PRc8ZrKdwilf92vnQRC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -65,7 +62,7 @@
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.test: sample_app">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.All tests in test: sample_app">
     <configuration name="Development: sample_app" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="sample_app" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -163,6 +160,41 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="All tests in test: sample_app" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <module name="sample_app" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Itest" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/{*_test,test_*,*_spec}.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: sample_app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
@@ -193,6 +225,10 @@
       <workItem from="1596179383944" duration="8667000" />
       <workItem from="1596496611060" duration="1619000" />
       <workItem from="1596522494218" duration="7194000" />
+      <workItem from="1596604186842" duration="5190000" />
+      <workItem from="1597061119413" duration="1233000" />
+      <workItem from="1597067864808" duration="1222000" />
+      <workItem from="1597220767135" duration="1914000" />
     </task>
     <servers />
   </component>
@@ -220,34 +256,50 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="331" y="209" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595158436815" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1596498271329">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1596621361558">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271329" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1596498271327">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361558" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1596621361556">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271327" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1596498271325">
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361556" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1596621361555">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271325" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1596498271328">
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361555" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1596621361557">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596498271328" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361557" />
+    <state width="1238" height="197" key="GridCell.Tab.1.bottom" timestamp="1596621361562">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.1.bottom/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361562" />
+    <state width="1238" height="197" key="GridCell.Tab.1.center" timestamp="1596621361560">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.1.center/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361560" />
+    <state width="1238" height="197" key="GridCell.Tab.1.left" timestamp="1596621361559">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.1.left/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361559" />
+    <state width="1238" height="197" key="GridCell.Tab.1.right" timestamp="1596621361561">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.1.right/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596621361561" />
     <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1595058000483">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="243" height="457" key="HiddenNamespacesPopup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1595058000483" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1596537255780">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1597222583903">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1057.1920.1057@0.0.1280.800" timestamp="1595143151515" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1596537255780" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/0.-1080.1920.1080@0.0.1280.800" timestamp="1597222583903" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1596524766775" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sample_app@test__sample_app.rcov" NAME="test: sample_app Coverage Results" MODIFIED="1596498243749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@All_tests_in_test__sample_app.rcov" NAME="All tests in test: sample_app Coverage Results" MODIFIED="1596620463799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
 </project>
